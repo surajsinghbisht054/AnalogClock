@@ -4,7 +4,7 @@
 # Written By:
 #		S.S.B
 #		surajsinghbisht054@gmail.com
-#		bitforestinfo.blogspot.com
+#		http://www.bitforestinfo.com
 #
 #	
 #
@@ -57,7 +57,7 @@ class main(Tkinter.Tk):
 	def creating_sticks(self):
 		self.sticks=[]
 		for i in xrange(3):
-			store=self.canvas.create_line(self.x, self.y,self.x+self.length,self.y+self.length,width=2)
+			store=self.canvas.create_line(self.x, self.y,self.x+self.length,self.y+self.length,width=2, fill='red')
 			self.sticks.append(store)
 		return
 
