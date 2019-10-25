@@ -56,7 +56,7 @@ class main(Tkinter.Tk):
 	# Creating Moving Sticks
 	def creating_sticks(self):
 		self.sticks=[]
-		for i in xrange(3):
+		for i in range(3):
 			store=self.canvas.create_line(self.x, self.y,self.x+self.length,self.y+self.length,width=2, fill='red')
 			self.sticks.append(store)
 		return
